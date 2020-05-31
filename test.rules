@@ -1,0 +1,23 @@
+alert tcp any any -> any 80 (msg:"gilgil.net access"; content:"GET /"; content:"Host: "; content:"gilgil.net"; sid:10001; rev:1;)
+alert tcp any any -> any 80 (msg:"netflix.com access"; content:"GET /"; content:"Host: "; content:"netflix.com"; sid:10002; rev:1;)
+alert tcp any any -> any 80 (msg:"qt.io access"; content:"GET /"; content:"Host: "; content:"qt.io"; sid:10003; rev:1;)
+alert tcp any any -> any 80 (msg:"kitribob.kr access"; content:"GET /"; content:"Host: "; content:"kitribob.kr"; sid:10004; rev:1;)
+alert tcp any any -> any 80 (msg:"guidancesoftware.com access"; content:"GET /"; content:"Host: "; content:"guidancesoftware.com"; sid:10005; rev:1;)
+alert tcp any any -> any 80 (msg:"forensicfocus.com access"; content:"GET /"; content:"Host: "; content:"forensicfocus.com"; sid:10006; rev:1;)
+alert tcp any any -> any 80 (msg:"boannews.com access"; content:"GET /"; content:"Host: "; content:"boannews.com"; sid:10007; rev:1;)
+alert tcp any any -> any 80 (msg:"filesignatures.net access"; content:"GET /"; content:"Host: "; content:"filesignatures.net"; sid:10008; rev:1;)
+alert tcp any any -> any 80 (msg:"nate.com access"; content:"GET /"; content:"Host: "; content:"nate.com"; sid:10009; rev:1;)
+alert tcp any any -> any 80 (msg:"sans.org access"; content:"GET /"; content:"Host: "; content:"sans.org"; sid:10010; rev:1;)
+alert tcp any any -> any 80 (msg:"forensic.korea.ac.kr access"; content:"GET /"; content:"Host: "; content:"forensic.korea.ac.kr"; sid:10011; rev:1;)
+alert tcp any any -> any 80 (msg:"forensicwiki.org access"; content:"GET /"; content:"Host: "; content:"forensicwiki.org"; sid:10012; rev:1;)
+alert tcp any any -> any 80 (msg:"daum.net access"; content:"GET /"; content:"Host: "; content:"daum.net"; sid:10013; rev:1;)
+alert tcp any any -> any 80 (msg:"ctf-d.com access"; content:"GET /"; content:"Host: "; content:"ctf-d.com"; sid:10014; rev:1;)
+alert tcp any any -> any 80 (msg:"forensickorea.org access"; content:"GET /"; content:"Host: "; content:"forensickorea.org"; sid:10015; rev:1;)
+alert tcp any any -> any 80 (msg:"forensicnotes.com access"; content:"GET /"; content:"Host: "; content:"forensicnotes.com"; sid:10016; rev:1;)
+alert tcp any any -> any 80 (msg:"forensicmag.com access"; content:"GET /"; content:"Host: "; content:"forensicmag.com"; sid:10017; rev:1;)
+alert tcp any any -> any 80 (msg:"cfpa.or.kr access"; content:"GET /"; content:"Host: "; content:"cfpa.or.kr"; sid:10018; rev:1;)
+alert tcp any any -> any 80 (msg:"mail.google.com access"; content:"GET /"; content:"Host: "; content:"mail.google.com"; sid:10019; rev:1;)
+alert tcp any any -> any 80 (msg:"boanchanggo.tistory.com access"; content:"GET /"; content:"Host: "; content:"boanchanggo.tistory.com"; sid:10020; rev:1;)
+
+
+
